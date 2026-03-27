@@ -1,0 +1,23 @@
+/* About us */
+#about
+{
+    height: 700px;
+    width: 1350px;
+    background-image: url('../images/achevemnt4.jpg');
+    background-size:cover;
+}
+#aboutbody
+{
+height: 400px;
+width: 500px;
+background-size:cover;
+background-image: url(../images/about1.jpg);
+}
+#aboutb
+{
+height:350px;
+width: 400px;
+background-image: url('../images/aboutse.jpg');
+
+
+}

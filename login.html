@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IIMM, Ayodhya || Login Page</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="images/Logo-IIMM.png" rel="icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!--  Top  row start -->
+    <div class="row bg-primary text-light py-1 text-center fw-semibold">
+      <div class="col-sm-6 ">Welcome to IIMM Ayodhya</div>
+      <div class="col-sm-6 ">Home | IIMM Branches | AICTE Corner</div>
+    </div>
+    <!--  Top row end-->
+    <!--  main header start -->
+    <div class="row align-items-center py-2">
+      <div class="col-sm-2 text-end  ">
+        <img src="images/Logo-IIMM.png" alt="logo" height="120">
+      </div>
+      <div class="col-sm-3 text-center fw-bold mt-4">
+        <h1> IIMM, Ayodhya </h1>
+        <h6> Indian Institute of Materials Management</h6>
+      </div>
+      <div class="col-sm-2 ">
+        <img src="images/g20-logo.png" alt="" height="65">
+      </div>
+      <div class="col-sm-2 ">
+        <button class="btn btn border border-1 border-dark "> <i class="fa-solid fa-award"></i>An Institute of Eminence
+        </button>
+      </div>
+      <div class="col-sm-3 ">
+        <span> <i class="fa-solid fa-phone fa-shake"></i> Call US:+91 9305370846</span> <br />
+        <span> <i class="fa-regular fa-envelope fa-bounce"></i> Mail US:anujkumarnirmal199@gmail.com</span>
+      </div>
+    </div>
+    <!--  main header end -->
+    <!-- nav-bar start -->
+    <div class="row">
+      <div class="col-sm-12 p-0 ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+          <div class="container-fluid bg-primary py-2">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="index.html">Home |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="Aboutus.html">This Institute |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">Education |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">Event |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">Knowledge Bank |</a>
+                </li>
+                <li class="nav-item"></li>
+                  <a class="nav-link active text-light" aria-current="page" href="login.html">Membership|</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">MMR |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">Useful-Links |</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#">Contact |</a>
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+
+    <!-- nav-bar end -->
+    <!-- login start -->
+
+    <div class="row">
+      <div class="col-sm-10 mx-auto my-5">
+        <div class="row mt-4 mx-auto">
+          <div class="col-sm-6 border-1" style="background-color: rgb(248, 248, 251); ">
+            <div class="row h-100 align-items-center mx-auto p-3">
+              <div>
+                <h1 class="text-center">Welcome User</h1>
+                <form action="" method="post">
+                  <div class="col-sm-12 mt-3 text-center">
+                    <label for="userid" class="pb-3">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Select User Type</option>
+                        <option value="1">Admin</option>
+                        <option value="2">Student</option>
+                        <option value="3">Teacher</option>
+                      </select>
+                    </label>
+
+                  </div>
+                  <div class="col-sm-12 mt-3">
+                    <label for="userid" class="pb-3">
+                      <i class="fa-solid fa-user fa-xl"></i> Enter UserID</label>
+                    <input type="text" name="user name" class="form-control shadow" id="userid"
+                      placeholder="Enter Your E-mail">
+                    <br>
+                    <label for="password" class="pb-3">
+                      <i class="fa-solid fa-key fa-xl"></i> Enter Your Password</label>
+                    <input type="password" name="Password" class="form-control shadow" id="password"
+                      placeholder="Enter Your Password">
+
+                    <a href="#">forget password</a><br>
+                  </div>
+                  <div class="col-sm-12 mt-4 text-center">
+                    <button class="btn btn-primary w-100 rounded-5">Login
+                    </button>
+                  </div>
+                  <div class="col-sm-12 mt-4 text-center">
+                    <button class="btn btn-outline-primary w-100 rounded-5">New-user.? Register
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <img src="images/login.jpg" alt="" height="100%" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- login end -->
+
+
+    <!-- Footer start -->
+    <div class="row bg-primary mt-3">
+      <div class="col-sm-10 mx-auto mt-3">
+        <div class="row " style="font-size: 14px;">
+          <div class="col-sm-4 text-light">
+            <h5> <i class="fa-solid fa-location-dot " style="color: #ffffff; "></i>
+              Find Us:</h5>
+            <p>Dev Nagar Colony, Raibareli Road
+              (Near Naveen Galla Mandi), Ayodhya (Faizabad) - 224001</p>
+          </div>
+          <div class="col-sm-4 text-light">
+            <h5><i class="fa-solid fa-phone " style="color: #ffffff; "></i> Call Us:</h5>
+            <p>+91 94150 25623 <br />
+              +91 94157 80361 </p>
+          </div>
+          <div class="col-sm-4 text-light">
+            <h5> <i class="fa-regular fa-envelope-open " style="color: #ffffff;"></i> Mail Us:</h5>
+            <p>
+              info@iimmayodhya.org <br>
+              anujkumarnirmal199.com
+            </p>
+          </div>
+        </div>
+        <hr class="my-5 ">
+        <div class="row mx-auto">
+          <div class="col-sm-4 text-light">
+            <h5>Welcome To IIMM</h5>
+            <hr>
+            <p style="font-size: 12px; text-align: justify;"> IIMM is dedicated to the promotion of the profession of
+              Materials Management and with its multifarious
+              activities, including EDP, seminars, workshops, in-house training programs and consultancy assignment.
+            </p>
+            <h5><b>Follow us</b></h5>
+            <i class="fa-brands fa-facebook-f fa-x text-center"
+              style="background-color: darkslateblue;color: #ffffff; border-radius: 50%; height: 40px;width: 40px;padding-top:12px ;margin: 9px;"></i>
+            <i class="fa-brands fa-twitter fa-x text-center"
+              style="color:#ffffff;background-color: lightskyblue;  border-radius: 50%; height: 40px;width: 40px;padding-top:12px ;margin: 9px;"></i>
+            <i class="fa-brands fa-google-plus-g fa-x text-center"
+              style="color: #ffffff;background-color: red; border-radius: 50%; height: 40px;width: 40px;padding-top:12px ;margin: 9px;"></i>
+          </div>
+          <div class="col-sm-4 text-light">
+            <h5>Use FulL Links</h5>
+            <div style="height:2px; width:70px; background-color: red;"></div>
+            <div class="row " style="font-size: 14px;">
+              <div class="col-sm-6">
+                <a href="#" class="text-light"> Home</a><br>
+                <a href="#" class="text-light"> service</a><br>
+                <a href="#" class="text-light"> contact</a><br>
+                <a href="#" class="text-light"> our service</a><br>
+                <a href="#" class="text-light"> contact us</a><br>
+              </div>
+              <div class="col-sm-6"> <a href="#" class="text-light"> About</a><br>
+                <a href="#" class="text-light"> Portfolio</a><br>
+                <a href="#" class="text-light"> About us</a><br>
+                <a href="#" class="text-light"> Latest News</a><br>
+                <a href="#" class="text-light"> Expert Team</a><br>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-sm-4 text-light">
+            <h5> Subscribe</h5>
+            <div style="height:2px; width:70px; background-color: red;">
+
+            </div><br>
+            <p style="font-size: 12px;">Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+            <br>
+            <div class="position-relative ">
+              <input type="text" class="position-absolute form-control py-3" placeholder="E-mail Adress" />
+              <button class="btn  position-absolute end-0 py-3 bgbtn border-0 radius-0"
+                style="background-color: orangered; border-radius: 1px; height: 58px; width: 20%;">
+                <i class="fa-brands fa-telegram fa-xl "></i></button>
+
+            </div>
+          </div>
+        </div> <br>
+        <div class="row">
+          <div class="col-sm-7">
+            <p style="font-size: 12px; color: white; " placeholder="E-mail Adress">© Copyright 2024 Designed &
+              Developed By | Softpro India Computer Technologies (P) Ltd.</p>
+          </div>
+          <div class="col-sm-5" style="font-size: 12px; text-align: center;">
+            <a href="#" class="text-light p-1"> Home</a>
+            <a href="#" class="text-light p-1"> Terms</a>
+            <a href="#" class="text-light p-1"> Policy</a>
+            <a href="#" class="text-light p-1"> Privacy</a>
+            <a href="#" class="text-light p-1"> Contact</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- Footer end -->
+
+  </div>
+  </div>
+</body>
+
+</html>
