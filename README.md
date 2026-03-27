@@ -33,10 +33,15 @@ A responsive and modern frontend website created for IIMM Ayodhya College using 
 
 ## 📸 Screenshots
 
+README.md
 home1.png
+README.md
 home2.png
+README.md
 home3.png
+README.md
 home4.png
+README.md
 login.png
 
 ---
